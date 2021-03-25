@@ -1,0 +1,120 @@
+/* BIG Website */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+html {
+    background-color:#F2F2FF;
+}
+
+main {
+    width:50%;
+    margin:auto;
+    background-color: #F2F2FF;
+    padding-right: 3%; 
+    padding-left: 3%; 
+    padding-top: 3%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #323233;
+    text-shadow: 2px 2px #B3B3B5;
+    font-family: sacramento;
+    font-size: 48px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.subheader {
+    text-decoration: none;
+    color: #4B4B4C;
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    font-size:14px;
+    text-shadow: 1px 1px #B3B3B5;
+    border: 1px ridge #D4D4D8;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.pagetext {
+    padding-top: 0.1%;
+    
+}
+
+p {
+    font-family: montserrat, sans-serif;
+    font-size: 15px;
+}
+
+.centertext {
+    text-align: center;
+    
+}
+
+.fullwidth {
+    width:100%;
+}
+
+img {
+    width:100%;
+}
+
+div.gallery {
+    text-align:center;
+    padding-top: 3px;
+}
+
+figure {
+    display:inline-block;
+    margin:.10%;
+}
+
+
+/* START - EMBED RESPONSIVELY STYLES */
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    }
+
+/* END - EMBED RESPONSIVELY STYLES */
+
+/* HIDE AGENDA VIEW CALENDAR */
+
+.embed-container.agenda-view{
+    display:none;
+}
+
+
+footer {
+    padding:5em;
+    text-align:center;
+    clear:both;
+
+}
+
+footer p {
+    font-size: 13px;
+}
+
+/* MOBILE STYLES */
+
+@media all and (max-width:600px) {
+    main {
+        width:100%;
+}
